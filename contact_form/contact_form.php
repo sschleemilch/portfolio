@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'info@yourdomain.com'; // Replace it with Your Hosting Admin email. REQUIRED!
+$from = 'info@sebastian-schleemilch.de';
 $sendTo = 'basti.schleemilch@onlinehome.de';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); // array variable name => Text to appear in the email. If you added or deleted a field in the contact form, edit this array.
@@ -12,7 +12,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])):
     //your site secret key
-    $secret = '6LdqmCAUAAAAANONcPUkgVpTSGGqm60cabVMVaON';
+    $secret = '6Ld_b50bAAAAAIp1EW6nJnZv9AHA19CShk5TWBKF';
     //get verify response data
 
     $c = curl_init('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
