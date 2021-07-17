@@ -82,7 +82,7 @@
                         var messageAlert = 'alert-' + data.type;
                         var messageText = data.message;
 
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">OK</button>' + messageText + '</div>';
                         if (messageAlert && messageText) {
                             $('#contact_form').find('.messages').html(alertBox);
                             $('#contact_form')[0].reset();
