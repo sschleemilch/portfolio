@@ -13,14 +13,23 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])):
     //your site secret key
     $secret = '6Ld_b50bAAAAAIp1EW6nJnZv9AHA19CShk5TWBKF';
-    //get verify response data
+    $response = $_POST['g-recaptcha-response'];
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
+    $data = array(
+		'secret' => $secret,
+		'response' => $_POST["g-recaptcha-response"]
+	);
+    $options = array(
+		'http' => array (
+			'method' => 'POST',
+			'content' => http_build_query($data)
+		)
+	);
+    $context  = stream_context_create($options);
+    $verify = file_get_contents($url, false, $context);
+    $captcha_success=json_decode($verify);
 
-    $c = curl_init('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
-    curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
-    $verifyResponse = curl_exec($c);
-
-    $responseData = json_decode($verifyResponse);
-    if($responseData->success):
+    if($captcha_success->success == true):
 
         try
         {
@@ -60,7 +69,7 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
         }
 
     else:
-        $errorMessage = 'Robot verification failed, please try again.';
+        $errorMessage = 'Are you a bot?';
         $responseArray = array('type' => 'danger', 'message' => $errorMessage);
         $encoded = json_encode($responseArray);
 
