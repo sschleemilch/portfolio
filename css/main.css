@@ -322,11 +322,11 @@ input[type="submit"]:focus {
     width: auto;
     visibility: hidden;
     opacity: 0;
-    color: #fff;
+    color: #444;
     padding: 2px 10px;
     background-color: #f58545;
     white-space: nowrap;
-    right: 0;
+    right: 50%;
     top: -50%;
     margin-top: 50%;
     -webkit-transition: all 0.3s ease-in-out;
