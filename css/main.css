@@ -1317,7 +1317,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-percentage {
-  background-color: #f58545;
+  background: linear-gradient(to right, #f58545, #fe6d72);;
   border: 2px solid #222;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -1375,11 +1375,11 @@ textarea.form-control, textarea.form-control:focus {
   list-style: none;
 }
 
-.knowledges li {;
+.knowledges li {
   display: inline-block;
   background-color: #f58545;
   border-radius: 3px;
-  color: #fff;
+  color: #444;
   padding: 1px 10px;
   margin: 3px 2px;
   font-size: 13px;
