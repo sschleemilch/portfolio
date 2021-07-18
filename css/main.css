@@ -402,7 +402,7 @@ input[type="submit"]:focus {
     width: calc(150px + 6vw);
     background-size: cover;
     background-image: url("../img/main_photo.jpg");
-    --aug-border-bg: #f58545;
+    --aug-border-bg: linear-gradient( #f58545, #fe6d72);
     --aug-border-all: 5px;
 }
 
