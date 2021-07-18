@@ -22,10 +22,20 @@ html {
   overflow: hidden;
 }
 
-body {
+#particles-js {
+  position:absolute;
+  width: 100%;
+  height: 100%;
   background-color: #f58545;
   background: -webkit-gradient(linear, left top, left bottom, from(#fe6d72), to(#f58545));
   background: linear-gradient(#fe6d72, #f58545);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+body {
   margin: 0;
   width: 100%;
   height: 100%;
@@ -35,10 +45,6 @@ body {
   line-height: 1.65em;
   overflow: hidden;
   color: #d5d5d5;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: 50% 50%;
-  background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2727,21 +2733,6 @@ blockquote {
 10. Updates
 ============================================================================= */
 
-/* v1.1 */
-.lm-animated-bg {
-  position: absolute;
-  width: auto;
-  height: auto;
-  top: -28px;
-  left: -28px;
-  right: -28px;
-  bottom: -28px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
 .vcentered {
   vertical-align: middle;
   width: 100%;
@@ -2896,10 +2887,6 @@ blockquote {
 }
 
 @media only screen and (max-width: 1024px) {
- .lm-animated-bg {
-    display: none;
- }
-
  .title-block h2 {
     font-size: 48px;
     line-height: 56px;
