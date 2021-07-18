@@ -2357,6 +2357,8 @@ blockquote {
 
   ul.main-menu a.active {
     opacity: 1;
+    font-weight: bold;
+    color: #f58545;
   }
 
   ul.main-menu .menu-icon {
