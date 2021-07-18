@@ -335,11 +335,12 @@ input[type="submit"]:focus {
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     z-index: 0;
+    border-radius: 15px;
     box-shadow: 0px 10px 10px -8px rgba(0,0,0,.22);
   }
 
   ul.main-menu a:hover .link-text {
-    right: 100%;
+    right: 85%;
     visibility: visible;
     opacity: 1;
   }
