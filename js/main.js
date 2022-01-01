@@ -33,6 +33,11 @@
     }
     // /Portfolio subpage filters
 
+    function calculate_age(dob) {
+        var diff_ms = Date.now() - dob.getTime();
+        var age_dt = new Date(diff_ms);
+        document.getElementById("age").innerHTML = Math.abs(age_dt.getUTCFullYear() - 1970);
+    }
 
     // Hide Mobile menu
     function mobileMenuHide() {
@@ -128,6 +133,8 @@
             $('#site_header').toggleClass('mobile-menu-hide');
             $('.menu-toggle').toggleClass('open');
         });
+
+        calculate_age(new Date(1989, 8, 4))
 
         // Mobile menu hide on main menu item click
         $('.main-menu').on("click", "a", function (e) {
