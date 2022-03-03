@@ -1,797 +1,767 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Sebastian Schleemilch - Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Sebastian Schleemilch Portfolio" />
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
-    <meta name="author" content="lmpixels" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-  
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sebastian Schleemilch - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Sebastian Schleemilch Portfolio" />
+  <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+  <meta name="author" content="lmpixels" />
 
-  <body>
-    <div id="particles-js"></div>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+  <link rel="stylesheet" href="css/animations.css" type="text/css">
+  <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+
+  <!-- Loading animation -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="preloader-spinner">
       </div>
     </div>
-    <!-- /Loading animation -->
+  </div>
+  <!-- /Loading animation -->
 
-    <div class="page">
-      <div class="page-content">
+  <div class="page">
+    <div class="page-content">
 
-          <header id="site_header" class="header mobile-menu-hide" data-augmented-ui-reset>
-            <div class="header-content">
-              <!-- <div class="header-photo">
+      <header id="site_header" class="header mobile-menu-hide" data-augmented-ui-reset>
+        <div class="header-content">
+          <!-- <div class="header-photo">
                 <img src="img/main_photo.jpg" alt="Sebastian Schleemilch">
               </div> -->
-              <div class="headshot" data-augmented-ui="tl-2-clip-x br-2-clip-x tr-clip bl-clip border"></div>
-              <div class="header-titles">
-                <h2>Sebastian Schleemilch</h2>
-                <h4>Software Engineer</h4>
-              </div>
-            </div>
-
-            <ul class="main-menu" data-augmented-ui-reset>
-              <li class="active">
-                <a href="#home" class="nav-anim" data-animation="67">
-                  <span class="menu-icon lnr lnr-home"></span>
-                  <span class="link-text">Home</span>
-                </a>
-              </li>
-              <li>
-                <a href="#about-me" class="nav-anim" data-animation="67">
-                  <span class="menu-icon lnr lnr-user"></span>
-                  <span class="link-text">About Me</span>
-                </a>
-              </li>
-              <li>
-                <a href="#resume" class="nav-anim" data-animation="67">
-                  <span class="menu-icon lnr lnr-graduation-hat"></span>
-                  <span class="link-text">Resume</span>
-                </a>
-              </li>
-              <li>
-                <a href="#blog" class="nav-anim" data-animation="67">
-                  <span class="menu-icon lnr lnr-book"></span>
-                  <span class="link-text">Blog</span>
-                </a>
-              </li>
-              <li>
-                <a href="#contact" class="nav-anim" data-animation="67">
-                  <span class="menu-icon lnr lnr-envelope"></span>
-                  <span class="link-text">Contact</span>
-                </a>
-              </li>
-            </ul>
-
-            <div class="social-links">
-              <ul>
-                <li><a href="https://www.linkedin.com/in/sschleemilch/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.facebook.com/sebastian.schleemilch" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://github.com/sschleemilch" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.xing.com/profile/Sebastian_Schleemilch2?sc_o=mxb_p" target="_blank"><i class="fab fa-xing"></i></a></li>
-              </ul>
-            </div>
-
-            <div class="header-buttons">
-              <a href="cv/cv.pdf" target="_blank" class="btn btn-primary">Download CV</a>
-            </div>
-
-            <div class="copyrights">© 2021 All rights reserved.</div>
-          </header>
-
-          <!-- Mobile Navigation -->
-          <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div class="headshot" data-augmented-ui="tl-2-clip-x br-2-clip-x tr-clip bl-clip border"></div>
+          <div class="header-titles">
+            <h2>Sebastian Schleemilch</h2>
+            <h4>Software Engineer</h4>
           </div>
-          <!-- End Mobile Navigation -->
+        </div>
 
-          <!-- Arrows Nav -->
-          <div class="lmpixels-arrows-nav">
-            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
-            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
-          </div>
-          <!-- End Arrows Nav -->
+        <ul class="main-menu" data-augmented-ui-reset>
+          <li class="active">
+            <a href="#home" class="nav-anim" data-animation="67">
+              <span class="menu-icon lnr lnr-home"></span>
+              <span class="link-text">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about-me" class="nav-anim" data-animation="67">
+              <span class="menu-icon lnr lnr-user"></span>
+              <span class="link-text">About Me</span>
+            </a>
+          </li>
+          <li>
+            <a href="#resume" class="nav-anim" data-animation="67">
+              <span class="menu-icon lnr lnr-graduation-hat"></span>
+              <span class="link-text">Resume</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-anim" data-animation="67">
+              <span class="menu-icon lnr lnr-envelope"></span>
+              <span class="link-text">Contact</span>
+            </a>
+          </li>
+        </ul>
 
-          <div class="content-area">
-            <div class="animated-sections">
-              <!-- Home Subpage -->
-              <section data-id="home" class="animated-section start-page">
-                <div class="section-content vcentered">
+        <div class="social-links">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/sschleemilch/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.facebook.com/sebastian.schleemilch" target="_blank"><i
+                  class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://github.com/sschleemilch" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.xing.com/profile/Sebastian_Schleemilch2?sc_o=mxb_p" target="_blank"><i
+                  class="fab fa-xing"></i></a></li>
+          </ul>
+        </div>
 
-                    <div class="row">
-                      <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="title-block">
-                          <h2>Sebastian Schleemilch</h2>
-                          <div class="owl-carousel text-rotation">                                    
-                            <div class="item">
-                              <div class="sp-subtitle">DevOps Engineer</div>
-                            </div>
-                            <div class="item">
-                              <div class="sp-subtitle">Software Developer</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+        <div class="header-buttons">
+          <a href="cv/cv.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+        </div>
 
-                </div>
-              </section>
-              <!-- End of Home Subpage -->
+        <div class="copyrights">© 2021 All rights reserved.</div>
+      </header>
 
-              <!-- About Me Subpage -->
-              <section data-id="about-me" class="animated-section">
-                <div class="section-content">
-                  <div class="page-title">
-                    <h2>About <span>Me</span></h2>
-                  </div>
-
-                  <!-- Personal Information -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-7">
-                      <p>I am a passionate Software Developer who loves new challenges and getting into new unknown software and hardware related domains.
-                         Currently I am in depth into large scaling DevOps solutions for Autonomous Driving Systems.
-                      </p>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-5">
-                      <div class="info-list">
-                        <ul>
-                          <li>
-                            <span class="title">Age</span>
-                            <span class="value" id="age"></span>
-                          </li>
-
-                          <li>
-                            <span class="title">Residence</span>
-                            <span class="value">Germany</span>
-                          </li>
-
-                          <li>
-                            <span class="title">City</span>
-                            <span class="value">Munich</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Personal Information -->
-
-                  <div class="white-space-50"></div>
-
-                  <!-- Services -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="block-title">
-                        <h3>What <span>I Do</span></h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                      <div class="col-inner">
-                        <div class="info-list-w-icon">
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-code"></i>
-                            </div>
-                            <div class="ci-text">
-                              <h4>Coding</h4>
-                              <p>I love to code. Professionally and in private. Amazed to solve new challenges everyday and to solve everyday problems in private</p>
-                            </div>
-                          </div>
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-rocket"></i>
-                            </div><div class="ci-text">
-                              <h4>Research</h4>
-                              <p>I like looking a bit in the future, being close to what's currently possible. Very intrested in most recent techs. Never stand still!</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6">
-                      <div class="col-inner">
-                        <div class="info-list-w-icon">
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-bicycle"></i>
-                            </div>
-                            <div class="ci-text">
-                              <h4>Sports</h4>
-                              <p>Besides spending a lot of time in front of the monitor I like doing sports like Tennis, Fitness and Climbing/Hiking</p>
-                            </div>
-                          </div>
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-music-note"></i>
-                            </div><div class="ci-text">
-                              <h4>Music</h4>
-                              <p>Doing also a bit of music myself using one of my guitars</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Services -->
-
-                  <div class="white-space-50"></div>
-
-                  <!-- Clients -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="block-title">
-                        <h3>Technologies <span>I currently use</span></h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="clients owl-carousel">
-                        
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="git">
-                            <img src="img/techs/git.png" alt="git">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="docker">
-                            <img src="img/techs/docker.png" alt="docker">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="azure">
-                            <img src="img/techs/azure.png" alt="azure">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="python">
-                            <img src="img/techs/python.png" alt="python">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="vscode">
-                            <img src="img/techs/vscode.png" alt="vscode">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="bazel">
-                            <img src="img/techs/bazel.png" alt="bazel">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="cmake">
-                            <img src="img/techs/cmake.png" alt="cmake">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="cpp">
-                            <img src="img/techs/cpp.png" alt="cpp">
-                          </a>
-                        </div>
-                        <div class="client-block">
-                          <a href="#" target="_blank" title="jenkins">
-                            <img src="img/techs/jenkins.png" alt="jenkins">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Clients -->
-
-                  <div class="white-space-50"></div>
-
-                  <!-- Fun Facts -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-
-                      <div class="block-title">
-                        <h3>Fun <span>Facts</span></h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                      <div class="fun-fact gray-default">
-                        <i class="lnr lnr-code"></i>
-                        <h4>Git Commits</h4>
-                        <span class="fun-fact-block-value">1.550</span>
-                        <span class="fun-fact-block-text"></span>
-                      </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4">
-                      <div class="fun-fact gray-default">
-                        <i class="lnr lnr-clock"></i>
-                        <h4>Working Hours</h4>
-                        <span class="fun-fact-block-value">10.480</span>
-                        <span class="fun-fact-block-text"></span>
-                      </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 ">
-                      <div class="fun-fact gray-default">
-                        <i class="lnr lnr-thumbs-down"></i>
-                        <h4>Double Faults Served</h4>
-                        <span class="fun-fact-block-value">1.104</span>
-                        <span class="fun-fact-block-text"></span>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Fun Facts -->
-
-                </div>
-              </section>
-              <!-- End of About Me Subpage -->
-
-              <!-- Resume Subpage -->
-              <section data-id="resume" class="animated-section">
-                <div class="section-content">
-                  <div class="page-title">
-                    <h2>Resume</h2>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-7">
-
-                      <div class="block-title">
-                        <h3>Education</h3>
-                      </div>
-                      <div class="timeline timeline-second-style clearfix">
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2016</h5>
-                            <span class="item-company">Technische Unversität München</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Automotive Software Engineering</h4>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="timeline timeline-second-style clearfix">
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2013</h5>
-                            <span class="item-company">Friedrich Alexander University</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Mechatronics</h4>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="white-space-50"></div>
-
-                      <div class="block-title">
-                        <h3>Experience</h3>
-                      </div>
-
-                      <div class="timeline timeline-second-style clearfix">
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2018 - current</h5>
-                            <span class="item-company">Bosch GmbH</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title"> Automotive DevOps, CI Expert</h4>
-                            <p>Containerized Development Environment, Continous Delivery/Test/Integration</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="timeline timeline-second-style clearfix">
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2016 - 2018</h5>
-                            <span class="item-company">Bosch GmbH</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Automotive Software Integration</h4>
-                            <p>Defining Development Workflow, Repository Structure, Development Environment, Continuous Integration.</p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2014 - 2015</h5>
-                            <span class="item-company">BMW M GmbH</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Working Student</h4>
-                            <p>On Board Diagnosis, Automatic Data Evaluation</p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2013</h5>
-                            <span class="item-company">Fraunhofer IISB</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Bachelor Thesis</h4>
-                            <p>Inductive Vehicle Charging, Power Electronics, Atmel Microcontroller Programming</p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2012 - 2013</h5>
-                            <span class="item-company">Fraunhofer IIS</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Working Student</h4>
-                            <p>Wireless μC Programming in a real time application</p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2011 - 2012</h5>
-                            <span class="item-company">FAU</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Tutor</h4>
-                            <p>Java Courses for students</p>
-                          </div>
-                        </div>
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2012</h5>
-                            <span class="item-company">SIEMENS</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Internship</h4>
-                            <p>Motion Control - Siumlation of electric engines using C++</p>
-                          </div>
-                        </div>
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2009 - 2010</h5>
-                            <span class="item-company">BLSV</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Alternative Civilian Service</h4>
-                          </div>
-                        </div>
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2009</h5>
-                            <span class="item-company">Leistritz</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Internship</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Skills & Certificates -->
-                    <div class="col-xs-12 col-sm-5">
-
-                      <div class="white-space-10"></div>
-
-                      <!-- Coding Skills -->
-                      <div class="block-title">
-                        <h3>Coding <span>Skills</span></h3>
-                      </div>
-
-                      <div class="skills-info skills-second-style">
-                        <div class="skill clearfix">
-                          <h4>Python</h4>
-                          <div class="skill-value">95%</div>
-                        </div>
-                        <div class="skill-container skill-1">
-                          <div class="skill-percentage"></div>
-                        </div>
-
-                        <div class="skill clearfix">
-                          <h4>C/C++</h4>
-                          <div class="skill-value">80%</div>
-                        </div>
-                        <div class="skill-container skill-2">
-                          <div class="skill-percentage"></div>
-                        </div>
-                        
-                        <div class="skill clearfix">
-                          <h4>Scripting (Bash/Batch)</h4>
-                          <div class="skill-value">90%</div>
-                        </div>
-                        <div class="skill-container skill-3">
-                          <div class="skill-percentage"></div>
-                        </div>
-                        <div class="skill clearfix">
-                          <h4>Java/Groovy</h4>
-                          <div class="skill-value">75%</div>
-                        </div>
-                        <div class="skill-container skill-4">
-                          <div class="skill-percentage"></div>
-                        </div>
-                        <div class="skill clearfix">
-                          <h4>Web (HTML/CSS/JS)</h4>
-                          <div class="skill-value">65%</div>
-                        </div>
-                        <div class="skill-container skill-5">
-                          <div class="skill-percentage"></div>
-                        </div>
-                      </div>
-                      <!-- End of Coding Skills -->
-
-                      <div class="white-space-10"></div>
-
-                      <!-- Knowledges -->
-                      <div class="block-title">
-                        <h3>Knowledges</h3>
-                      </div>
-
-                      <ul class="knowledges">
-                        <li>Python</li>
-                        <li>Docker</li>
-                        <li>Git</li>
-                        <li>Bitbucket</li>
-                        <li>Azure DevOps</li>
-                        <li>Jenkins</li>
-                        <li>C/C++</li>
-                        <li>Android</li>
-                        <li>Unix / MacOs / Windows / WSL2</li>
-                        <li>Groovy / Java</li>
-                        <li>Embedded Software</li>
-                        <li>Conan </li>
-                        <li> CMake </li>
-                        <li> Ninja </li>
-                        <li> Bazel </li>
-                        <li> CCache </li>
-                        <li> Compilers </li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>SASS</li>
-                        <li>VSCode Devcontainers</li>
-                        <li>REST APIs</li>
-                      </ul>
-                      <!-- End of Knowledges -->
-                    </div>
-                    <!-- End of Skills & Certificates -->
-                  </div>
-
-                  <div class="white-space-50"></div>
-
-                  <!-- Certificates -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="block-title">
-                        <h3>Certificates</h3>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="row">
-                    <!-- Certificate 1 -->
-                    <div class="col-xs-12 col-sm-6">
-                      <div class="certificate-item clearfix">
-                        <div class="certi-logo">
-                          <img src="img/certs/istqb.png" alt="istq">
-                        </div>
-                        
-                        <div class="certi-content">
-                          <div class="certi-title">
-                            <h4>ISTQB</h4>
-                          </div>
-                          <div class="certi-id">
-                            <span>Foundation Level</span>
-                          </div>
-                          <div class="certi-date">
-                            <span>2018</span>
-                          </div>
-                          <div class="certi-company">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End of Certificate 1 -->
-
-                  </div>
-                  <!-- End of Certificates -->
-                </div>
-              </section>
-              <!-- End of Resume Subpage -->
-
-              <!-- Blog Subpage -->
-              <section data-id="blog" class="animated-section">
-                <div class="section-content">
-                  <div class="page-title">
-                    <h2>Blog</h2>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="blog-masonry two-columns clearfix">
-                        
-                        <!-- Blog Post 1 -->
-                        <div class="item post-1">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <div class="category">
-                                <a href="#" title="Git-Bash-Powerline">Git</a>
-                              </div>
-                              <a href="git_bash_powerline.html">
-                                <img src="img/blog/blog_post_git.jpg" class="size-blog-masonry-image-two-c" alt="How to write a gitbash-powerline for Windows" title="" />
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <div class="post-date">26 April 2019</div>
-                              <a href="git_bash_powerline.html">
-                                <h4 class="blog-item-title">How to write a gitbash-powerline for Windows</h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End of Blog Post 1 -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </section>
-              <!-- End of Blog Subpage -->
-
-              <!-- Contact Subpage -->
-              <section data-id="contact" class="animated-section">
-                <div class="section-content">
-                  <div class="page-title">
-                    <h2>Contact</h2>
-                  </div>
-
-                  <div class="row">
-                    <!-- Contact Info -->
-                    <div class="col-xs-12 col-sm-4">
-                      <div class="lm-info-block gray-default">
-                        <i class="lnr lnr-map-marker"></i>
-                        <h4>Munich</h4>
-                        <span class="lm-info-block-value"></span>
-                        <span class="lm-info-block-text"></span>
-                      </div>
-                    </div>
-                   <div class="col-xs-12 col-sm-4">
-                     <div class="lm-info-block gray-default">
-                       <i class="lnr lnr-phone-handset"></i>
-                       <h4>+4917655553629</h4>
-                       <span class="lm-info-block-value"></span>
-                       <span class="lm-info-block-text"></span>
-                     </div>
-                   </div>
-                    <!-- End of Contact Info -->
-
-                    <div class="white-space-50"></div>
-                    <!-- Contact Form -->
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="block-title">
-                        <h3>How Can I <span>Help You?</span></h3>
-                      </div>
-
-                      <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
-
-                        <div class="controls two-columns">
-                          <div class="fields clearfix">
-                            <div class="left-column">
-                              <div class="form-group form-group-with-icon">
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
-                                <label>Full Name</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
-
-                              <div class="form-group form-group-with-icon">
-                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                                <label>Email Address</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
-
-                              <div class="form-group form-group-with-icon">
-                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
-                                <label>Subject</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
-                            </div>
-                            <div class="right-column">
-                              <div class="form-group form-group-with-icon">
-                                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
-                                <label>Message</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="g-recaptcha" data-sitekey="6Ld_b50bAAAAACUd6Fr_iONkwPO9HYYsZWTA6VvF" data-theme="dark"></div>
-      
-                          <input type="submit" class="button btn-send" value="Send message">
-                        </div>
-                        <div class="messages"></div>
-                      </form>
-                    </div>
-                    <!-- End of Contact Form -->
-                  </div>
-
-                </div>
-              </section>
-              <!-- End of Contact Subpage -->
-            </div>
-          </div>
-
+      <!-- Mobile Navigation -->
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+      <!-- End Mobile Navigation -->
+
+      <!-- Arrows Nav -->
+      <div class="lmpixels-arrows-nav">
+        <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+        <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+      </div>
+      <!-- End Arrows Nav -->
+
+      <div class="content-area">
+        <div class="animated-sections">
+          <!-- Home Subpage -->
+          <section data-id="home" class="animated-section start-page">
+            <div class="section-content vcentered">
+
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="title-block">
+                    <h2>Sebastian Schleemilch</h2>
+                    <div class="owl-carousel text-rotation">
+                      <div class="item">
+                        <div class="sp-subtitle">DevOps Engineer</div>
+                      </div>
+                      <div class="item">
+                        <div class="sp-subtitle">Software Developer</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          <!-- End of Home Subpage -->
+
+          <!-- About Me Subpage -->
+          <section data-id="about-me" class="animated-section">
+            <div class="section-content">
+              <div class="page-title">
+                <h2>About <span>Me</span></h2>
+              </div>
+
+              <!-- Personal Information -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                  <p>I am a passionate Software Developer who loves new challenges and getting into new unknown software
+                    and hardware related domains.
+                    Currently I am in depth into large scaling DevOps solutions for Autonomous Driving Systems.
+                  </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-5">
+                  <div class="info-list">
+                    <ul>
+                      <li>
+                        <span class="title">Age</span>
+                        <span class="value" id="age"></span>
+                      </li>
+
+                      <li>
+                        <span class="title">Residence</span>
+                        <span class="value">Germany</span>
+                      </li>
+
+                      <li>
+                        <span class="title">City</span>
+                        <span class="value">Munich</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Personal Information -->
+
+              <div class="white-space-50"></div>
+
+              <!-- Services -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <div class="block-title">
+                    <h3>What <span>I Do</span></h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="col-inner">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr lnr-code"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Coding</h4>
+                          <p>I love to code. Professionally and in private. Amazed to solve new challenges everyday and
+                            to solve everyday problems in private</p>
+                        </div>
+                      </div>
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr lnr-rocket"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Research</h4>
+                          <p>I like looking a bit in the future, being close to what's currently possible. Very
+                            intrested in most recent techs. Never stand still!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                  <div class="col-inner">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr lnr-bicycle"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Sports</h4>
+                          <p>Besides spending a lot of time in front of the monitor I like doing sports like Tennis,
+                            Fitness and Climbing/Hiking</p>
+                        </div>
+                      </div>
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr lnr-music-note"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Music</h4>
+                          <p>Doing also a bit of music myself using one of my guitars</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Services -->
+
+              <div class="white-space-50"></div>
+
+              <!-- Clients -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <div class="block-title">
+                    <h3>Technologies <span>I currently use</span></h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <div class="clients owl-carousel">
+
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="git">
+                        <img src="img/techs/git.png" alt="git">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="docker">
+                        <img src="img/techs/docker.png" alt="docker">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="azure">
+                        <img src="img/techs/azure.png" alt="azure">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="python">
+                        <img src="img/techs/python.png" alt="python">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="vscode">
+                        <img src="img/techs/vscode.png" alt="vscode">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="bazel">
+                        <img src="img/techs/bazel.png" alt="bazel">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="cmake">
+                        <img src="img/techs/cmake.png" alt="cmake">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="cpp">
+                        <img src="img/techs/cpp.png" alt="cpp">
+                      </a>
+                    </div>
+                    <div class="client-block">
+                      <a href="#" target="_blank" title="jenkins">
+                        <img src="img/techs/jenkins.png" alt="jenkins">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Clients -->
+
+              <div class="white-space-50"></div>
+
+              <!-- Fun Facts -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+
+                  <div class="block-title">
+                    <h3>Fun <span>Facts</span></h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                  <div class="fun-fact gray-default">
+                    <i class="lnr lnr-code"></i>
+                    <h4>Git Commits</h4>
+                    <span class="fun-fact-block-value">1.550</span>
+                    <span class="fun-fact-block-text"></span>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                  <div class="fun-fact gray-default">
+                    <i class="lnr lnr-clock"></i>
+                    <h4>Working Hours</h4>
+                    <span class="fun-fact-block-value">10.480</span>
+                    <span class="fun-fact-block-text"></span>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 ">
+                  <div class="fun-fact gray-default">
+                    <i class="lnr lnr-thumbs-down"></i>
+                    <h4>Double Faults Served</h4>
+                    <span class="fun-fact-block-value">1.104</span>
+                    <span class="fun-fact-block-text"></span>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Fun Facts -->
+
+            </div>
+          </section>
+          <!-- End of About Me Subpage -->
+
+          <!-- Resume Subpage -->
+          <section data-id="resume" class="animated-section">
+            <div class="section-content">
+              <div class="page-title">
+                <h2>Resume</h2>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+                  <div class="timeline timeline-second-style clearfix">
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2016</h5>
+                        <span class="item-company">Technische Unversität München</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Automotive Software Engineering</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline timeline-second-style clearfix">
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2013</h5>
+                        <span class="item-company">Friedrich Alexander University</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Mechatronics</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <div class="block-title">
+                    <h3>Experience</h3>
+                  </div>
+
+                  <div class="timeline timeline-second-style clearfix">
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2018 - current</h5>
+                        <span class="item-company">Bosch GmbH</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title"> Automotive DevOps, CI Expert</h4>
+                        <p>Containerized Development Environment, Continous Delivery/Test/Integration</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline timeline-second-style clearfix">
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2016 - 2018</h5>
+                        <span class="item-company">Bosch GmbH</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Automotive Software Integration</h4>
+                        <p>Defining Development Workflow, Repository Structure, Development Environment, Continuous
+                          Integration.</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2014 - 2015</h5>
+                        <span class="item-company">BMW M GmbH</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Working Student</h4>
+                        <p>On Board Diagnosis, Automatic Data Evaluation</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2013</h5>
+                        <span class="item-company">Fraunhofer IISB</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Bachelor Thesis</h4>
+                        <p>Inductive Vehicle Charging, Power Electronics, Atmel Microcontroller Programming</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2012 - 2013</h5>
+                        <span class="item-company">Fraunhofer IIS</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Working Student</h4>
+                        <p>Wireless μC Programming in a real time application</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2011 - 2012</h5>
+                        <span class="item-company">FAU</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Tutor</h4>
+                        <p>Java Courses for students</p>
+                      </div>
+                    </div>
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2012</h5>
+                        <span class="item-company">SIEMENS</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Internship</h4>
+                        <p>Motion Control - Siumlation of electric engines using C++</p>
+                      </div>
+                    </div>
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2009 - 2010</h5>
+                        <span class="item-company">BLSV</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Alternative Civilian Service</h4>
+                      </div>
+                    </div>
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2009</h5>
+                        <span class="item-company">Leistritz</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Internship</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Skills & Certificates -->
+                <div class="col-xs-12 col-sm-5">
+
+                  <div class="white-space-10"></div>
+
+                  <!-- Coding Skills -->
+                  <div class="block-title">
+                    <h3>Coding <span>Skills</span></h3>
+                  </div>
+
+                  <div class="skills-info skills-second-style">
+                    <div class="skill clearfix">
+                      <h4>Python</h4>
+                      <div class="skill-value">95%</div>
+                    </div>
+                    <div class="skill-container skill-1">
+                      <div class="skill-percentage"></div>
+                    </div>
+
+                    <div class="skill clearfix">
+                      <h4>C/C++</h4>
+                      <div class="skill-value">80%</div>
+                    </div>
+                    <div class="skill-container skill-2">
+                      <div class="skill-percentage"></div>
+                    </div>
+
+                    <div class="skill clearfix">
+                      <h4>Scripting (Bash/Batch)</h4>
+                      <div class="skill-value">90%</div>
+                    </div>
+                    <div class="skill-container skill-3">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <div class="skill clearfix">
+                      <h4>Java/Groovy</h4>
+                      <div class="skill-value">75%</div>
+                    </div>
+                    <div class="skill-container skill-4">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <div class="skill clearfix">
+                      <h4>Web (HTML/CSS/JS)</h4>
+                      <div class="skill-value">65%</div>
+                    </div>
+                    <div class="skill-container skill-5">
+                      <div class="skill-percentage"></div>
+                    </div>
+                  </div>
+                  <!-- End of Coding Skills -->
+
+                  <div class="white-space-10"></div>
+
+                  <!-- Knowledges -->
+                  <div class="block-title">
+                    <h3>Knowledges</h3>
+                  </div>
+
+                  <ul class="knowledges">
+                    <li>Python</li>
+                    <li>Docker</li>
+                    <li>Git</li>
+                    <li>Bitbucket</li>
+                    <li>Azure DevOps</li>
+                    <li>Jenkins</li>
+                    <li>C/C++</li>
+                    <li>Android</li>
+                    <li>Unix / MacOs / Windows / WSL2</li>
+                    <li>Groovy / Java</li>
+                    <li>Embedded Software</li>
+                    <li>Conan </li>
+                    <li> CMake </li>
+                    <li> Ninja </li>
+                    <li> Bazel </li>
+                    <li> CCache </li>
+                    <li> Compilers </li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SASS</li>
+                    <li>VSCode Devcontainers</li>
+                    <li>REST APIs</li>
+                  </ul>
+                  <!-- End of Knowledges -->
+                </div>
+                <!-- End of Skills & Certificates -->
+              </div>
+
+              <div class="white-space-50"></div>
+
+              <!-- Certificates -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <div class="block-title">
+                    <h3>Certificates</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Certificate 1 -->
+                <div class="col-xs-12 col-sm-6">
+                  <div class="certificate-item clearfix">
+                    <div class="certi-logo">
+                      <img src="img/certs/istqb.png" alt="istq">
+                    </div>
+
+                    <div class="certi-content">
+                      <div class="certi-title">
+                        <h4>ISTQB</h4>
+                      </div>
+                      <div class="certi-id">
+                        <span>Foundation Level</span>
+                      </div>
+                      <div class="certi-date">
+                        <span>2018</span>
+                      </div>
+                      <div class="certi-company">
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Certificate 1 -->
+
+              </div>
+              <!-- End of Certificates -->
+            </div>
+          </section>
+          <!-- End of Resume Subpage -->
+
+          <!-- Contact Subpage -->
+          <section data-id="contact" class="animated-section">
+            <div class="section-content">
+              <div class="page-title">
+                <h2>Contact</h2>
+              </div>
+
+              <div class="row">
+                <!-- Contact Info -->
+                <div class="col-xs-12 col-sm-4">
+                  <div class="lm-info-block gray-default">
+                    <i class="lnr lnr-map-marker"></i>
+                    <h4>Munich</h4>
+                    <span class="lm-info-block-value"></span>
+                    <span class="lm-info-block-text"></span>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <div class="lm-info-block gray-default">
+                    <i class="lnr lnr-phone-handset"></i>
+                    <h4>+4917655553629</h4>
+                    <span class="lm-info-block-value"></span>
+                    <span class="lm-info-block-text"></span>
+                  </div>
+                </div>
+                <!-- End of Contact Info -->
+
+                <div class="white-space-50"></div>
+                <!-- Contact Form -->
+                <div class="col-xs-12 col-sm-12">
+                  <div class="block-title">
+                    <h3>How Can I <span>Help You?</span></h3>
+                  </div>
+
+                  <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
+
+                    <div class="controls two-columns">
+                      <div class="fields clearfix">
+                        <div class="left-column">
+                          <div class="form-group form-group-with-icon">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder=""
+                              required="required" data-error="Name is required.">
+                            <label>Full Name</label>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder=""
+                              required="required" data-error="Valid email is required.">
+                            <label>Email Address</label>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+
+                          <div class="form-group form-group-with-icon">
+                            <input id="form_subject" type="text" name="subject" class="form-control" placeholder=""
+                              required="required" data-error="Subject is required.">
+                            <label>Subject</label>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                        <div class="right-column">
+                          <div class="form-group form-group-with-icon">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7"
+                              required="required" data-error="Please, leave me a message."></textarea>
+                            <label>Message</label>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="g-recaptcha" data-sitekey="6Ld_b50bAAAAACUd6Fr_iONkwPO9HYYsZWTA6VvF"
+                        data-theme="dark"></div>
+
+                      <input type="submit" class="button btn-send" value="Send message">
+                    </div>
+                    <div class="messages"></div>
+                  </form>
+                </div>
+                <!-- End of Contact Form -->
+              </div>
+
+            </div>
+          </section>
+          <!-- End of Contact Subpage -->
+        </div>
+      </div>
+
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/animating.js"></script>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/animating.js"></script>
 
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
-    <script src='js/perfect-scrollbar.min.js'></script>
-    <script src='js/jquery.shuffle.min.js'></script>
-    <script src='js/masonry.pkgd.min.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src='js/perfect-scrollbar.min.js'></script>
+  <script src='js/jquery.shuffle.min.js'></script>
+  <script src='js/masonry.pkgd.min.js'></script>
+  <script src='js/owl.carousel.min.js'></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
 
-    <script src="js/validator.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/validator.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
