@@ -39,6 +39,30 @@
         document.getElementById("age").innerHTML = Math.abs(age_dt.getUTCFullYear() - 1970);
     }
 
+    function calculate_git_commits() {
+        var work_start = new Date(2016, 6, 15)
+        var diff_ms = new Date(Date.now() - work_start.getTime());
+        var work_years = Math.abs(diff_ms.getUTCFullYear() - 1970);
+        var commits = work_years * 365
+        document.getElementById("git_commits").innerHTML = commits
+    }
+
+    function calculate_working_hours() {
+        var work_start = new Date(2016, 6, 15)
+        var diff_ms = new Date(Date.now() - work_start.getTime());
+        var work_years = Math.abs(diff_ms.getUTCFullYear() - 1970);
+        var work_hours = work_years * 230 * 40
+        document.getElementById("working_hours").innerHTML = work_hours
+    }
+
+    function calculate_double_faults() {
+        var tennis_start = new Date(1997, 1, 1)
+        var diff_ms = new Date(Date.now() - tennis_start.getTime());
+        var tennis_years = Math.abs(diff_ms.getUTCFullYear() - 1970);
+        var double_faults = tennis_years * 50
+        document.getElementById("double_faults").innerHTML = double_faults
+    }
+
     // Hide Mobile menu
     function mobileMenuHide() {
         var windowWidth = $(window).width(),
@@ -135,6 +159,9 @@
         });
 
         calculate_age(new Date(1989, 8, 4))
+        calculate_git_commits()
+        calculate_working_hours()
+        calculate_double_faults()
 
         // Mobile menu hide on main menu item click
         $('.main-menu').on("click", "a", function (e) {
