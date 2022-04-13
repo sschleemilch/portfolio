@@ -398,8 +398,8 @@ input[type="submit"]:focus {
 .headshot {
     flex-shrink: 0;
     margin: 20px auto;
-    height: calc(150px + 6vw);
-    width: calc(150px + 6vw);
+    height: calc(100px + 6vw);
+    width: calc(100px + 6vw);
     background-size: cover;
     background-image: url("../img/main_photo.jpg");
     --aug-border-bg: linear-gradient( #f58545, #fe6d72);
